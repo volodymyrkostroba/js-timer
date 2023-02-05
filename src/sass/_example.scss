@@ -1,0 +1,30 @@
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 40px;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.list > li:first-child{
+    margin-right: 30px;
+}
